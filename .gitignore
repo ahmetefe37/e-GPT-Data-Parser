@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Circuit files
+circuit-files/instructions/*
+circuit-files/outputs/*
+circuit-files/schematics/*
+
+# JSON files
+json-files/stage1/*
+json-files/stage2/*
+json-files/stage3/*
+json-files/stage4/*
+json-files/stage5/*
+
+# CSV files
+csv-files/stage1/*
+csv-files/stage2/*
+csv-files/stage3/*
+csv-files/stage4/*
+csv-files/stage5/*
+
+# Keep .gitkeep files to maintain directory structure
+!circuit-files/instructions/.gitkeep
+!circuit-files/outputs/.gitkeep
+!circuit-files/schematics/.gitkeep
+!json-files/stage1/.gitkeep
+!json-files/stage2/.gitkeep
+!json-files/stage3/.gitkeep
+!json-files/stage4/.gitkeep
+!json-files/stage5/.gitkeep
+!csv-files/stage1/.gitkeep
+!csv-files/stage2/.gitkeep
+!csv-files/stage3/.gitkeep
+!csv-files/stage4/.gitkeep
+!csv-files/stage5/.gitkeep
